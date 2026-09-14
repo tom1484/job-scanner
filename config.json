@@ -1,0 +1,62 @@
+{
+  "target": {
+    "intern": [
+      "summer intern",
+      "off-season intern"
+    ],
+    "full-time": [
+      "entry level",
+      "mid level",
+      "senior level"
+    ],
+    "countries": [
+      "USA",
+      "Canada",
+      "Remote"
+    ],
+    "filter": {
+      "USA": {
+        "allow_citizenship_required": false,
+        "allow_no_sponsorship": false
+      }
+    },
+    "keywords": [
+      "software",
+      "swe",
+      "system",
+      "systems",
+      "backend",
+      "back-end",
+      "frontend",
+      "front-end",
+      "full-stack",
+      "fullstack",
+      "platform",
+      "web",
+      "mobile",
+      "data",
+      "ai",
+      "ml",
+      "machine learning",
+      "cloud",
+      "infra",
+      "infrastructure",
+      "devops",
+      "security"
+    ]
+  },
+  "ai": {
+    "enabled": true,
+    "provider": "google",
+    "model": "gemini-2.5-flash"
+  },
+  "sender": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "you@gmail.com",
+    "email": "you@gmail.com"
+  },
+  "receiver": {
+    "email": "you+jobsearch@gmail.com"
+  }
+}
